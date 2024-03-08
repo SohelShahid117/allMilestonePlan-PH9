@@ -6,3 +6,61 @@ git remote add origin https://github.com/SohelShahid117/allMilestonePlan-PH9.git
 git push -u origin main
 
 git remote add origin https://github.com/SohelShahid117/Assignment_5.git
+
+
+
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117 (main)
+$ rm -rf .git
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117
+$ git init 
+Initialized empty Git repository in C:/programmingHero/b9a6-retro-forum-SohelShahid117/.git/
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117 (master)
+$ git add .
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tailwind.config.js', LF will be replaced by CRLF the next time Git touches it
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117 (master)
+$ git commit -m "correction coding"
+[master (root-commit) 280d0a4] correction coding
+ create mode 100644 assets/joinForummm.png
+ create mode 100644 assets/logoooo.png
+ create mode 100644 index.html
+ create mode 100644 tailwind.config.js
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117 (master)
+$ git branch -M main
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117 (main)
+$ git remote add origin https://github.com/Programming-Hero-Web-Course4/b9a6-retro-forum-SohelShahid117.git
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117 (main)
+$ git push -u origin main -f
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 74.46 KiB | 9.31 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Programming-Hero-Web-Course4/b9a6-retro-forum-SohelShahid117.git
+ + afd3149...280d0a4 main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117 (main)
+$ git add .
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117 (main)
+$ git commit -m "nJoy coding"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean        
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117 (main)
+$ git push
+Everything up-to-date
+
+User@DESKTOP-M1HN5IR MINGW64 /c/programmingHero/b9a6-retro-forum-SohelShahid117 (main)
+$
